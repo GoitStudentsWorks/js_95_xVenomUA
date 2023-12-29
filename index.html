@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/js_95_xVenomUA/assets/shopfav-385d1084.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DreamProject</title>
+    
+    <script type="module" crossorigin src="/js_95_xVenomUA/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_95_xVenomUA/assets/vendor-611745ce.js">
+    <link rel="modulepreload" crossorigin href="/js_95_xVenomUA/assets/subscription-179ff2f3.js">
+    <link rel="stylesheet" href="/js_95_xVenomUA/assets/subscription-81132634.css">
+    <link rel="stylesheet" href="/js_95_xVenomUA/assets/vendor-9918a8f8.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <div class="header-div-link">
+      <h2 hidden>Header</h2>
+    <a href="./index.html" class="header-logo">
+      <svg class="header-icon-food" width="16" height="16">
+        <use href="/js_95_xVenomUA/assets/icon-ed92c614.svg#icon-food_boot"></use>
+      </svg>
+    </a>
+    <a href="./index.html" class="header-name">Food Boutique</a>
+  </div>
+    <nav class="header-nav">
+      <ul class="header-ul">
+        <li class="header-li"><a href="./index.html" class="header-home header-nav-link">Home</a></li>
+        <li class="header-buy">
+          <a href="./cart.html" class="header-goods header-nav-link">
+        <svg class="header-icon-shop" width="14" height="14" >
+          <use href="/js_95_xVenomUA/assets/icon-ed92c614.svg#icon-shop"></use>
+        </svg>
+      </a></li>
+        <li class="header-cart">
+          <a href="./cart.html" class="header-cart-link">CART
+            <span class="header-cart-count">(0)</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="hero">
+  <div class="container">
+    <h1 class="hero-title">
+      Welcome to the 
+      <span class="hero-span-title">Food </span> 
+      Boutique!
+    </h1>
+    <p class="hero-text">
+      With Food Boutique, you're not just subscribing to food, you're signing up
+      for a fresher, fitter, and happier you.
+    </p>
+    <div class="hero-fix">
+    <picture>
+      <source media="(min-width: 1440px)" srcset="/js_95_xVenomUA/assets/hero14401x-min-9b6b189c.jpg 1x, /js_95_xVenomUA/assets/hero14402x-min-fe8be99f.jpg 2x" type="image/jpg">
+      <source media="(min-width: 768px)" srcset="/js_95_xVenomUA/assets/hero7681x-min-2e5f0b75.jpg 1x, /js_95_xVenomUA/assets/hero7682x-min-c75005c9.jpg 2x" type="image/jpg">
+      <source media="(min-width: 319.321px)" srcset="/js_95_xVenomUA/assets/hero3701x-min-b33a25b4.jpg 1x, /js_95_xVenomUA/assets/hero3702x-min-784cc218.jpg 2x" type="image/jpg">
+      <img class="hero-photo" src="/js_95_xVenomUA/assets/hero3701x-min-b33a25b4.jpg" alt="food">
+    </picture>
+    <div class="hero-back-org">
+        <svg class="hero-icon" width="92" height="92">
+            <use href="/js_95_xVenomUA/assets/icon-ed92c614.svg#icon-organic-food"></use>
+        </svg>
+    </div>
+  </div>
+  </div>
+</section>
+
+      <div class="div-position-global">
+        <div class="div-position-my-post">
+          <!-- ₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴
+₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴
+    Ондрій + Andrian Pohrebniak + Pasha
+₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴
+₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴ -->
+
+<section class="filter">
+  <div class="container filter-container">
+    <div class="filt-div-position">
+      <div class="filter-div-search">
+        <h2 hidden>Somethin</h2>
+        <label for="filter-search" class="filter-seach-label">Filters:</label>
+        <form class="filter-div-label">
+          <input
+            id="filter-search"
+            name="filter-search"
+            type="text"
+            class="filter-search-something filter-selec"
+            placeholder="Search for anything"
+          />
+          <button type="submit" class="filter-btn-search">
+            <svg class="hero-icon" width="20" height="20">
+              <use href="/js_95_xVenomUA/assets/icon-ed92c614.svg#icon-lupa"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+      <!-- gg -->
+      <select
+        name="filt-name-select"
+        class="filter-categories filter-selec filter-strilka"
+      >
+        <option value="" selected disabled hidden>Categories</option>
+      </select>
+      <!-- <select class="filter-sort filter-selec filter-strilka">
+        <option value="">A to Z</option>
+        <option value="">Z to A</option>
+        <option value="">Cheap</option>
+        <option value="">Expensive</option>
+        <option value="">Popular</option>
+        <option value="">Not popular</option>
+        <option value="">Show all</option>
+      </select> -->
+    </div>
+    <div class="filter-cards"></div>
+
+    <div class="pagination-container pagination">
+      <div class="pagination-div">
+      <button type="button" class="pagination-arrow pag-first-page">
+        <span class="pagination-icon">
+          <svg class="pagination-arrows-icon" width="24" height="24">
+            <use href="/js_95_xVenomUA/assets/icon-ed92c614.svg#icon-arrowx2" class="pag-use"></use>
+          </svg>
+        </span>
+      </button>
+      <button
+        class="pagination-arrow prew-button is-hiden"
+        type="button"
+        disabled
+      >
+        <span class="pagination-icon">
+          <svg class="pagination-arrows-icon" width="12" height="12">
+            <use href="/js_95_xVenomUA/assets/icon-ed92c614.svg#icon-arrowx1" class="pag-use"></use>
+          </svg>
+        </span>
+      </button>
+      </div>
+      <ul class="pagination-list"></ul>
+      <div class="pagination-div">
+      <button class="pagination-arrow next-button is-hiden" type="button">
+        <span class="pagination-icon">
+          <svg class="pagination-arrows-icon reverse rorate" width="12" height="12">
+            <use href="/js_95_xVenomUA/assets/icon-ed92c614.svg#icon-arrowx1" class="pag-use"></use>
+          </svg>
+        </span>
+      </button>
+      <button type="button" class="pagination-arrow last-total-page">
+        <span class="pagination-icon">
+          <svg class="pagination-arrows-icon rorate" width="24" height="24">
+            <use href="/js_95_xVenomUA/assets/icon-ed92c614.svg#icon-arrowx2" class="pag-use"></use>
+          </svg>
+        </span>
+      </button>
+</div>
+    </div>
+  </div>
+</section>
+
+          <div class="div-popular-discount">
+            <section id="popularity" class=" popular-container">
+  <div class="container"> 
+     <h2 class="popular-title">Popular products</h2>
+   
+     <div id="popularContainer" class="popular"></div>
+    </div>
+   </section>
+   
+            <section class="discount-section">
+     <div class="container discount-container">
+          <h2 class="discount-title">Discount products</h2>
+          
+          <div id="discountContainer" class="discount"></div>
+
+     </div>
+</section>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- ₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴
+₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴
+      Sloboda Volodymyr
+₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴
+₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴ 
+     1. Всі класи починаються з вашого розділу, тобто якщо у вас footer,
+клас обовязково має виглядати так class="footer-вашаназва" - це потрібно 
+для того, щоб ваші назви не збігались!!  
+     2. Обовязково у вашій секції всередині має бути дів з класом container!!!!!! (потрібно для різних розмірів екрану тобто для Mobile/tablet/dekstop verison) 
+     Приклад знизу або файл hero.html можете глянути
+     <section><div class="container"></div></section>
+     3. Якщо щось потрібно пояснити чи додати фотографію чи іконку - пишіть постараюсь допомогти
+
+     Успіхів!  -->
+
+<footer>
+  <div class="footer-container container">
+    <button class="footer-btn-to-top">
+      <svg class="icon-top" width="50" height="50">
+        <use href="/js_95_xVenomUA/assets/icon-ed92c614.svg#icon-ctrl"></use>
+      </svg>
+    </button>
+    <div class="footer-logo-socials">
+      <a class="footer-ref" href="./index.html">
+        <div class="footer-logo">
+          <svg class="footer-logo-icon" width="16" height="16">
+            <use href="/js_95_xVenomUA/assets/icon-ed92c614.svg#icon-food_boot"></use>
+          </svg>
+        </div>
+        <p class="footer-logo-text">Food Boutique</p>
+      </a>
+      <ul class="footer-socials-list">
+        <li>
+          <a
+            class="footer-socials-item"
+            href="https://www.facebook.com/goITclub/"
+          >
+            <svg class="footer-socials-icon" width="24" height="24">
+              <use href="/js_95_xVenomUA/assets/icon-ed92c614.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a
+            class="footer-socials-item"
+            href="https://www.instagram.com/goitclub/"
+          >
+            <svg class="footer-socials-icon" width="24" height="24">
+              <use href="/js_95_xVenomUA/assets/icon-ed92c614.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="footer-socials-item" href="https://www.youtube.com/c/GoIT">
+            <svg class="footer-socials-icon" width="24" height="24">
+              <use href="/js_95_xVenomUA/assets/icon-ed92c614.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-info-form">
+      <div class="footer-info">
+        <h2 class="footer-info-title">
+          Discover the Variety of Flavors and Quality
+        </h2>
+        <p class="footer-info-text">
+          An online store where you will find fresh, natural and delicious
+          products for a healthy life and unforgettable gastronomic adventures.
+        </p>
+      </div>
+      <form class="footer-form">
+        <label class="footer-form-text footer-common-text" for="user-email"
+          >Subscribe and learn about new products!</label
+        >
+        <input
+          class="footer-form-email"
+          id="user-email"
+          type="email"
+          name="user-email"
+          placeholder="Email"
+        />
+        <button class="footer-form-btn" type="submit">Send</button>
+      </form>
+      <p class="footer-common-text footer-rights">
+        Food Boutique. All rights reserved.
+      </p>
+      <ul class="footer-terms">
+        <li><a href="" class="footer-common-text">Privacy Policy</a></li>
+        <li class="footer-common-text">/</li>
+        <li><a href="" class="footer-common-text">Terms of Service</a></li>
+      </ul>
+    </div>
+    <div class="loader is-hidden">
+      <div class="loader-inner"></div>
+    </div>
+    <div class="error-message">Error: The request failed</div>
+  </div>
+</footer>
+
+    <!-- Sloboda Volodymyr -->
+    <div class="modal-backdrop is-hidden">
+  <div class="modal-subscribe-container">
+    <div class="modal-subscribe">
+      <button class="modal-close-btn">
+        <svg class="svg-close" width="20" height="20">
+          <use href="/js_95_xVenomUA/assets/icon-ed92c614.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="modal-subscribe-container-text">
+        <h2 class="modal-subscribe-text-title">
+          Thanks for subscribing for
+          <span class="span-subscribe-text">new</span> products
+        </h2>
+        <p class="modal-subscribe-text-discription">
+          We promise you organic and high-quality products that will meet your
+          expectations. Please stay with us and we promise you many pleasant
+          surprises.
+        </p>
+        <img class="modal-subscribe-img" srcset="/js_95_xVenomUA/assets/modalfood1xpng-min-bbe957e4.png 1x, /js_95_xVenomUA/assets/modalfood2xpng-min-85e5ce45.png 2x" src="/js_95_xVenomUA/assets/modalfood1xpng-min-bbe957e4.png" alt="food" loading="lazy" />
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-unsubscription-container">
+    <div class="modal-unsubscribe">
+      <button class="modal-close-btn">
+        <svg class="svg-close" width="20" height="20">
+          <use href="/js_95_xVenomUA/assets/icon-ed92c614.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="modal-subscribe-container-text">
+      <h2 class="modal-subscribe-text-title">
+        This <span class="span-subscribe-text">email address</span> has already
+        been entered
+      </h2>
+      <p class="modal-unsubscription-text-discription ">
+        You have already subscribed to our new products. Watch for offers at the
+        mailing address.
+      </p>
+    </div>
+  </div>
+
+  <div class="modal-container is-hidden">
+    <button class="modal-close-btn">
+      <svg class="svg-close" width="20" height="20">
+        <use href="/js_95_xVenomUA/assets/icon-ed92c614.svg#icon-close"></use>
+      </svg>
+    </button>
+
+    <div class="modal-content"></div>
+  </div>
+</div>
+
+<div id="id-modal-card" class="shop-modal-backdrop is-hidden-card ">
+  <div class="shop-div-card" data-idcarts="">
+    <button class="shop-modal-close-btn">
+      <svg class="svg-close" width="20" height="20">
+        <use href="/js_95_xVenomUA/assets/icon-ed92c614.svg#icon-close"></use>
+      </svg>
+    </button>
+    <div class="shop-div-info">
+      <div class="shop-div-img">
+        <img class="shop-img" src="/js_95_xVenomUA/assets/hero3701x-min-b33a25b4.jpg" alt="" width="140" />
+      </div>
+      <div class="shop-div-info-text">
+        <h2 class="shop-h-name">Header</h2>
+        <div class="shop-div-text-discription">
+          <div class="shop-div-text-new">
+            <p class="shop-text">
+              Category: <span class="shop-span shop-span-category"></span>
+            </p>
+            <p class="shop-text">
+              Size: <span class="shop-span shop-span-size"></span>
+            </p>
+          </div>
+          <div class="shop-div-text-second">
+            <p class="shop-text">
+              Popularity: <span class="shop-span shop-span-popularity"></span>
+            </p>
+          </div>
+        </div>
+        <p class="shop-text-discription scrollable-text"></p>
+      </div>
+    </div>
+
+    <div class="shop-div-price">
+      <h2 class="shop-h-price">$</h2>
+      <button class="shop-btn-card" data-idcards="" type="submit">
+        Add to
+        <svg class="shop-card-icon" height="18" width="18">
+          <use href="/js_95_xVenomUA/assets/icon-ed92c614.svg#icon-shop"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+    <div class="backdrop-div-card"></div>
+    
+  </body>
+</html>
